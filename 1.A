@@ -1,0 +1,30 @@
+1. Start Jenkins from docker image
+
+docker run -p 8080:8080 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts 
+
+You will get initial password to proceed to instalation
+
+You can customize Jenkins by installing suggested plugins or select different plugins
+
+Dont forget to create an admin user
+
+Configuration of Jenkins URL : you can keep as localhost: 8080 or different IP adress as VM. 
+
+
+2. Login to Jenkins
+
+3. Manually building with maven ( better to do it manually and after with Jenkins)
+
+4. ./mvnw compile - should be fine * success
+
+5. ./ mvnw test - was a problem with path in my case ( I clone repository to /tmp) and later it was fine * success
+
+6. ./ mvnw package - should be fine * success
+
+7. With Build - Snapshot.jar, you can try to manually open the webiste 
+
+8. Change the port to 8081 , because 8080 is Jenkins occupied
+
+9. localhost:8081 - should be a website
+
+Just in case, if you need more explanation , please go to Pluralsight Jetting starting with Jenkins (very good explanation)
