@@ -1,5 +1,5 @@
 # Jenkins-freestyle-project
-## Link : https://github.com/becodeorg/DevSecOps-Training/tree/master/hill/jenkins/freestyle
+#### Link : https://github.com/becodeorg/DevSecOps-Training/tree/master/hill/jenkins/freestyle
 ### The mission
 As a newly hired DevOps Engineer at a compagny called PetClinic. The company has a new website that has been written in Java. Given this Github Repo, you have been asked to make sure that the application build process (compile/test/package) works manualy in the first place (Hint: use the mvnw file inside to compile, test and package the app). Once you have done that, your mission will be to use Jenkins inside of docker (with Jenkins home folder inside the container, mounted to a locate directory) to automate to the process via a Freestyle Project in Jenkins.
 
