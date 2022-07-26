@@ -37,4 +37,12 @@ Github repo link : https://github.com/g0t4/jgsu-spring-petclinic
 
 #### Jenkins Getting Started course on Pluralsight 
 
+#### Useful information
+
+https://www.jenkins.io/doc/ - Jenkins documentation
+
+https://www.guru99.com/create-builds-jenkins-freestyle-project.html - How to create jenkins freestyly project from scratch
+
+https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases - Apache Maeven Project
+
 
