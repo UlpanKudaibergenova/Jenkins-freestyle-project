@@ -35,6 +35,6 @@ As a newly hired DevOps Engineer at a compagny called PetClinic. The company has
 
 Github repo link : https://github.com/g0t4/jgsu-spring-petclinic
 
-## Jenkins Getting Started course on Pluralsight 
+#### Jenkins Getting Started course on Pluralsight 
 
 
